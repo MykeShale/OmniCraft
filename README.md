@@ -3,12 +3,12 @@
 [![Antigravity](https://img.shields.io/badge/Antigravity-v2.0-blue?style=for-the-badge&logo=google)](https://github.com/MykeShale/OmniCraft)
 [![Agentic AI](https://img.shields.io/badge/Agentic-Orchestration-purple?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
 [![Coverage](https://img.shields.io/badge/Platforms-Web_|_iOS_|_Android_|_Backend-00b4d8?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
-[![Skills Count](https://img.shields.io/badge/Skills-65+-emerald?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
-[![Standards](https://img.shields.io/badge/Standards-WCAG_2.2_AA_|_OWASP_Top_10-orange?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
+[![Skills Count](https://img.shields.io/badge/Skills-100+-emerald?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
+[![Standards](https://img.shields.io/badge/Standards-Apple_HIG_|_WCAG_2.2_AA_|_OWASP-orange?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 
 > **Autonomous multi-platform engineering & agent orchestration suite.**  
-> Unifies native mobile UI/UX (iOS & Android), responsive web applications, and resilient backend systems under coordinated multi-agent engineering lifecycles.
+> Unifies benchmark-grade mobile app UI/UX (Expo, React Native, iOS & Android), responsive web applications, and resilient backend systems under coordinated multi-agent engineering lifecycles.
 
 ---
 
@@ -28,16 +28,18 @@ graph TD
     FSM -->|Decomposes & Coordinates| BEM
     
     subgraph "Omni UI/UX Pipeline (Mobile & Web)"
-        FEM --> FEM_A[Phase A: Design Direction & Creative Brief]
-        FEM --> FEM_B[Phase B: Platform Primitives & Token Mapping]
+        FEM --> FEM_A[Phase A: Design Direction & Category Benchmarks]
+        FEM --> FEM_B[Phase B: Platform Primitives & Native Motion]
         FEM --> FEM_C[Phase C: A11y & Device Interaction Gates]
         
+        FEM_A -.-> MOB_UX[mobile-app-ui-design & appllama-app-design-skill]
         FEM_A -.-> UX1[ui-ux-pro-max: 79 styles & palettes]
         FEM_A -.-> UX2[distinctive-frontend: anti-slop typography]
-        FEM_B -.-> MOB[Mobile Primitives: SwiftUI, Compose, Flutter, React Native]
-        FEM_B -.-> WEB[Web Primitives: Tailwind CSS, Radix UI, shadcn]
+        FEM_B -.-> EXPO[expo-ui, expo-native-ui, expo-router, expo-animation]
+        FEM_B -.-> RN[react-native-skills & react-view-transitions]
+        FEM_B -.-> WEB[shadcn-ui, Tailwind CSS & Radix primitives]
         FEM_B -.-> DASH[build-dashboard: executive KPI charts]
-        FEM_C -.-> A11Y[a11y-audit: WCAG 2.2 AA]
+        FEM_C -.-> A11Y[a11y-audit: WCAG 2.2 AA & touch targets >= 48dp]
     end
     
     subgraph "Backend Resilience Pipeline"
@@ -63,24 +65,24 @@ OmniCraft spans the entire technology spectrum from distributed databases to hig
 
 | Domain | Supported Stacks & Targets | Quality Invariants |
 | :--- | :--- | :--- |
-| **Mobile UX (iOS & Android)** | **SwiftUI**, **Jetpack Compose**, **Flutter**, **React Native** | Touch targets (min 48×48dp), dynamic typography scales, dark mode tokens, safe area padding, 60/120fps motion fluidity. |
+| **Mobile App UX (iOS & Android)** | **Expo**, **React Native**, **SwiftUI**, **Jetpack Compose**, **Flutter** | Apple HIG fidelity, touch targets (min 48×48dp), safe area insets (`useSafeAreaInsets`), native bottom sheets, 60/120fps Reanimated physics, dynamic typography scales. |
 | **Modern Web & SaaS** | **Next.js**, **React**, **Vue/Nuxt**, **Svelte**, **Vite** | Token-driven styles, responsive breakpoints, semantic HTML5, zero stray hardcoded hex values, SSR/hydration safety. |
-| **Backend & Services** | **Node.js**, **Go**, **Python/FastAPI**, **PostgreSQL**, **Redis** | Contract-first OpenAPI schemas, expand-contract DB migrations, parameterized queries, rate limiting, and zero-trust auth. |
-| **Motion & Video** | **Remotion**, **Three.js**, **CSS/SVG Motion** | Programmatic canvas rendering, continuous camera choreographies, and asset pipelines. |
+| **Backend & Cloud Services** | **Node.js**, **Go**, **FastAPI**, **PostgreSQL**, **Redis**, **Vercel** | Contract-first OpenAPI schemas, expand-contract DB migrations, parameterized queries, rate limiting, and zero-trust auth. |
+| **Motion & Cinematic** | **Remotion**, **Three.js**, **CSS/SVG Motion** | Programmatic canvas rendering, continuous camera choreographies, and asset pipelines. |
 
 ---
 
 ## 🎯 Flagship Master Orchestrators
 
 ### 1. `frontend-master`
-*Lead UI/UX Architect, Mobile Experience Lead & Design Systems Director*
+*Lead UI/UX Architect, Mobile Experience Director & Design Systems Lead*
 
-* **Scope**: Responsive Web, Native Mobile Apps (iOS/Android), and Cross-Platform Frameworks.
-* **Core Philosophy**: Zero "AI Slop". Rejects boilerplate purple gradients, default system fonts, and generic unpadded cards in favor of bespoke Linear/Stripe-tier craftsmanship.
+* **Scope**: Responsive Web, Native Mobile Apps (Expo, React Native, iOS, Android), and Cross-Platform Frameworks.
+* **Core Philosophy**: Zero "AI Slop". Rejects generic purple gradients, unstyled system fonts, and web-like mobile widgets in favor of benchmark-grade craft (Airbnb, Linear, Apple, Spotify).
 * **3-Phase Execution Pipeline**:
-  - **Phase A (Design Direction & Creative Brief)**: Identifies domain palettes (1 brand primary + 4 semantic tokens + neutral slates), high-contrast typography scales, and platform-specific ergonomics.
-  - **Phase B (Platform Component Assembly)**: Enforces Design Token-first primitives, comprehensive state coverage (skeletons, empty states, contextual error banners), and mobile-responsive interactions.
-  - **Phase C (Accessibility & Quality Gates)**: WCAG 2.2 AA contrast compliance (4.5:1 text, 3:1 non-text), visible `:focus-visible` rings, touch target boundaries, and zero type errors.
+  - **Phase A (Design Direction & Benchmarking)**: Studies revenue-ranked category benchmarks (`mobile-app-ui-design`, `appllama-app-design-skill`). Establishes domain palettes (1 brand primary + 4 semantic tokens + neutral slates) and platform-specific ergonomics.
+  - **Phase B (Platform Assembly & Native Motion)**: Implements native platform controls (native sheets, context menus, native tab bars), navigation semantics (push vs replace, modal vs sheet), and fluid 60/120fps Reanimated animations.
+  - **Phase C (Accessibility & Quality Gates)**: Enforces WCAG 2.2 AA contrast, 48×48dp touch targets, screen reader labels (`accessibilityLabel`), responsive breakpoints, and zero type errors.
 
 ### 2. `backend-master`
 *Principal Backend Architect, Lead Database Engineer & Security Specialist*
@@ -97,22 +99,23 @@ OmniCraft spans the entire technology spectrum from distributed databases to hig
 ### 3. `fullstack-master`
 *Autonomous Full-Stack Application Compiler*
 
-* **Scope**: End-to-end applications from scratch.
+* **Scope**: End-to-end full-stack platforms from scratch.
 * **Workflow**: Synthesizes product intent into frozen data contracts, orchestrates `backend-master` and `frontend-master` in parallel, validates cross-system integration, and self-heals build errors autonomously.
 
 ---
 
-## 🗂️ Specialized Sub-Skills Catalog
+## 🗂️ Specialized Sub-Skills Catalog (100+ Skills)
 
-OmniCraft coordinates a suite of 65+ specialized skills:
+OmniCraft coordinates a curated suite of over 100 specialized skills across key engineering domains:
 
 | Domain | Key Skills | Capabilities |
 | :--- | :--- | :--- |
-| **Mobile & Web UI/UX** | `ui-ux-pro-max`, `distinctive-frontend`, `impeccable`, `design-tokens`, `brandkit`, `apply-aesthetic`, `superdesign`, `design-component`, `design-code`, `shadcn-ui`, `figma-integration` | 79 visual styles, 192 product palettes, DTCG tokens (color, spacing, motion, radius), Figma sync, and code generation across SwiftUI, Compose, Flutter, and Web. |
-| **Architecture & Systems** | `architecture-designer`, `microservices-architect`, `api-designer` | System boundary modeling, microservices decomposition, ADR documentation, and REST/GraphQL specs. |
+| **Mobile App UI/UX & Native Engineering** | `mobile-app-ui-design`, `appllama-app-design-skill`, `appllama-usage`, `expo-ui`, `expo-native-ui`, `expo-router`, `expo-animation`, `expo-design-system`, `expo-dom`, `expo-dev-client`, `expo-app-clip`, `expo-brownfield`, `expo-data-fetching`, `expo-module`, `expo-web-to-native`, `eas-app-stores`, `eas-hosting`, `eas-observe`, `eas-simulator`, `eas-update`, `eas-workflows`, `react-native-skills` | Benchmark-quality mobile screens, Apple HIG fidelity, Expo Router navigation, native controls, EAS deployment workflows, and Reanimated motion physics. |
+| **Web UI/UX & Design Systems** | `ui-ux-pro-max`, `distinctive-frontend`, `impeccable`, `design-tokens`, `brandkit`, `apply-aesthetic`, `superdesign`, `design-component`, `design-code`, `shadcn-ui`, `shadcn-ui-design`, `figma-integration`, `react-view-transitions`, `web-design-guidelines` | 79 visual styles, 192 product palettes, DTCG tokens (color, spacing, motion, radius), Figma sync, and accessible component specs. |
+| **Architecture & Cloud Systems** | `architecture-designer`, `microservices-architect`, `api-designer`, `deploy-to-vercel`, `vercel-cli-with-tokens`, `vercel-optimize`, `composition-patterns` | System boundary modeling, microservices decomposition, ADR documentation, OpenAPI/REST specs, and Vercel cloud deployments. |
 | **Data & Databases** | `database-optimizer`, `postgres-pro`, `sql-pro` | Query plan analysis (`EXPLAIN ANALYZE`), indexing strategies, JSONB acceleration, and migration safety. |
 | **Security & Hardening** | `secure-code-guardian`, `security-reviewer` | OWASP Top 10 defense, zero-trust auth, secure cookie handling, input validation with Zod, and security audits. |
-| **Testing & Quality Assurance** | `test-driven-development`, `test-master`, `code-reviewer`, `systematic-debugging`, `verification-before-completion`, `a11y-audit` | Red-Green-Refactor pipelines, E2E/integration testing, root-cause isolation, and evidence-first completion gates. |
+| **Testing & Quality Assurance** | `test-driven-development`, `test-master`, `code-reviewer`, `systematic-debugging`, `verification-before-completion`, `a11y-audit`, `react-best-practices` | Red-Green-Refactor pipelines, E2E/integration testing, root-cause isolation, and evidence-first completion gates. |
 | **SRE, Observability & Vitals** | `sre-engineer`, `monitoring-expert`, `performance` | Prometheus/Grafana telemetry, structured logging pipelines, SLI/SLO budgets, and Core Web Vitals profiling. |
 | **Motion & Cinematic** | `motion-design`, `motion-graphics`, `cinematic-camera`, `cinematic-film`, `remotion-*`, `sound-design` | Programmatic video generation with Remotion, three.js continuous scenes, procedural sound design, and media pipelines. |
 
@@ -145,7 +148,7 @@ New-Item -ItemType Junction -Path "D:\My Systems\OmniCraft" -Target "$env:USERPR
 1. **Evidence Before Assertions**: Real verification output (passing test runs, clean builds, zero lint warnings) required before declaring work complete.
 2. **Zero Hardcoded Design Values**: All visual properties derive from semantic design tokens, ensuring cohesive theming across light, dark, and brand variants.
 3. **Contract-First Stability**: Backends freeze database schemas, validation models, and error responses before business logic is written.
-4. **Inclusive Accessibility**: UIs strictly enforce WCAG 2.2 AA contrast ratios, touch targets, and accessible ARIA/keyboard navigation.
+4. **Inclusive Accessibility**: UIs strictly enforce WCAG 2.2 AA contrast ratios, mobile touch targets (>= 48dp), and accessible ARIA/keyboard navigation.
 
 ---
 
