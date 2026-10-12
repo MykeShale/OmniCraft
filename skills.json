@@ -1,0 +1,11 @@
+{
+  "entries": [
+    { "path": "orchestrators" },
+    { "path": "mobile" },
+    { "path": "frontend" },
+    { "path": "backend" },
+    { "path": "qa-security" },
+    { "path": "devops-cloud" },
+    { "path": "motion-video" }
+  ]
+}
