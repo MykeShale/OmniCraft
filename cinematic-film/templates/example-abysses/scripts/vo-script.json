@@ -1,0 +1,12 @@
+[
+  { "id": "00-surface",  "depth": 0,     "text": "Vous flottez. Sous vos pieds : onze kilomètres de vide. Descendons." },
+  { "id": "01-liberty",  "depth": 93,    "text": "Quatre-vingt-treize mètres. La Statue de la Liberté disparaît. La pression a déjà décuplé." },
+  { "id": "02-eiffel",   "depth": 330,   "text": "Trois cent trente mètres. La Tour Eiffel, tête en bas. Aucun plongeur n'est jamais descendu plus bas en respirant." },
+  { "id": "03-burj",     "depth": 828,   "text": "Huit cent vingt-huit mètres. La plus haute tour du monde tiendrait ici. C'est le dernier endroit où l'œil voit encore du bleu." },
+  { "id": "04-midnight", "depth": 1000,  "text": "Mille mètres. Zone de minuit. Ici, neuf animaux sur dix fabriquent leur propre lumière." },
+  { "id": "05-whale",    "depth": 2000,  "text": "Deux mille mètres. Le cachalot vient chasser le calmar géant, en apnée. Ce combat, personne ne l'a jamais filmé." },
+  { "id": "06-titanic",  "depth": 3800,  "text": "Trois mille huit cents mètres. Le Titanic. Il neige des débris, ici, depuis plus d'un siècle." },
+  { "id": "07-hadal",    "depth": 6000,  "text": "Six mille mètres. Six cents fois la pression de la surface. Et pourtant, à huit mille trois cents mètres, un poisson nous regarde." },
+  { "id": "08-bottom",   "depth": 10935, "text": "L'Everest tiendrait ici, retourné, et il resterait deux kilomètres. Dix mille neuf cent trente-cinq mètres. Le fond. Une voiture, sur l'ongle de votre pouce." },
+  { "id": "09-end",      "depth": 10935, "text": "Nous avons exploré moins de cinq pour cent de l'océan. Le reste ne nous a jamais vus." }
+]

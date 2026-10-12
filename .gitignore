@@ -1,0 +1,18 @@
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+.DS_Store
+
+# Editor directories and temporary files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs and scratch
+*.log
+scratch/
+temp/
