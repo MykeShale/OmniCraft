@@ -1,20 +1,35 @@
 # OmniCraft ⚡
 
 [![Antigravity](https://img.shields.io/badge/Antigravity-v2.0-blue?style=for-the-badge&logo=google)](https://github.com/MykeShale/OmniCraft)
-[![Agentic AI](https://img.shields.io/badge/Agentic-Orchestration-purple?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
-[![Coverage](https://img.shields.io/badge/Platforms-Web_|_iOS_|_Android_|_Backend-00b4d8?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
-[![Skills Count](https://img.shields.io/badge/Skills-100+-emerald?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
-[![Architecture](https://img.shields.io/badge/Structure-7_Clean_Domains-success?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Supported-7c3aed?style=for-the-badge&logo=anthropic)](https://github.com/MykeShale/OmniCraft)
+[![Cursor AI](https://img.shields.io/badge/Cursor_AI-Compatible-000000?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-Ready-181717?style=for-the-badge&logo=github)](https://github.com/MykeShale/OmniCraft)
+[![OpenHands & Cline](https://img.shields.io/badge/OpenHands_|_Cline-AGENTS.md-10b981?style=for-the-badge)](https://github.com/MykeShale/OmniCraft)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 
-> **Autonomous multi-platform engineering & agent orchestration suite.**  
-> Unifies benchmark-grade mobile app UI/UX (Expo, React Native, iOS & Android), modern web applications, and resilient backend systems into 7 organized domain modules.
+> **Universal multi-agent engineering & skills framework for all AI coding assistants.**  
+> Equips **Google Antigravity**, **Claude Code**, **Cursor**, **Windsurf**, **GitHub Copilot**, and **autonomous agents** with 100+ benchmark-grade engineering skills across native mobile, responsive web, and distributed backend architectures.
+
+---
+
+## 🌐 Universal AI Runtime Support
+
+OmniCraft is designed from the ground up to be **tool-agnostic and universally pluggable**. Whether you develop using terminal agents, IDE extensions, or web AI assistants, OmniCraft automatically activates:
+
+| AI Runtime / Assistant | Compatibility Adapter | How It Works |
+| :--- | :--- | :--- |
+| **Google Antigravity & Gemini** | [`skills.json`](./skills.json) | Discovered in `~/.gemini/config/skills/` or `.agents/skills/`. Dynamically triggers skills via progressive disclosure. |
+| **Anthropic Claude Code & Claude Desktop** | [`CLAUDE.md`](./CLAUDE.md) | Claude automatically reads `CLAUDE.md` from the project root and routes execution through the master orchestrators. |
+| **Cursor IDE (Agent Mode & Composer)** | [`.cursorrules`](./.cursorrules) | Cursor automatically ingests `.cursorrules` to enforce Apple HIG mobile rules, TDD gates, and token design standards. |
+| **GitHub Copilot & VS Code** | [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) | Injected into GitHub Copilot chat and inline completions to maintain consistent architectural invariants. |
+| **Windsurf Cascade (Codeium)** | [`.cursorrules`](./.cursorrules) & [`AGENTS.md`](./AGENTS.md) | Cascade automatically reads project rules and follows the structured engineering lifecycles. |
+| **OpenHands, Cline & Roo Code** | [`AGENTS.md`](./AGENTS.md) | Autonomous agents recognize `AGENTS.md` as the authoritative system specification for task decomposition. |
 
 ---
 
 ## 🗂️ Clean 7-Domain Architecture
 
-OmniCraft organizes 100+ specialized skills into 7 dedicated domain directories:
+OmniCraft organizes 100+ specialized engineering capabilities into 7 clean domain directories:
 
 ```text
 OmniCraft/
@@ -25,7 +40,10 @@ OmniCraft/
 ├── 📁 qa-security/       # TDD Pipelines, Security Hardening & Zero-Trust Auditing
 ├── 📁 devops-cloud/      # SRE Reliability, Observability & Cloud Performance
 ├── 📁 motion-video/      # Programmatic Video, Continuous Cameras & Audio FX
-├── 📄 skills.json        # Auto-registration config for Antigravity & LLM agents
+├── 📄 AGENTS.md          # Universal Agent Standard (OpenHands, Cline, Aider)
+├── 📄 CLAUDE.md          # Anthropic Claude Code & Desktop Configuration
+├── 📄 .cursorrules       # Cursor AI Agent & Composer Directives
+├── 📄 skills.json        # Antigravity & LLM Discovery Manifest
 ├── 📄 README.md          # Architecture & Documentation
 └── 📄 LICENSE            # MIT License
 ```
@@ -34,19 +52,19 @@ OmniCraft/
 
 ## 🧭 Domain Directory Map
 
-| Domain Folder | Core Scope & Capabilities | Highlight Skills |
+| Domain Folder | Scope & Standards | Included Skills |
 | :--- | :--- | :--- |
-| [📁 `orchestrators/`](./orchestrators) | **Master Orchestrators & Compilers**: Directs and executes full-stack pipelines, freezes intent contracts, and coordinates sub-skills. | `frontend-master`, `backend-master`, `fullstack-master` |
-| [📁 `mobile/`](./mobile) | **Mobile UI/UX & Native Platforms**: Apple HIG fidelity, Expo Router navigation, native bottom sheets, touch targets, and Reanimated physics. | `mobile-app-ui-design`, `appllama-app-design-skill`, `expo-ui`, `expo-native-ui`, `expo-router`, `react-native-skills`, `eas-*` |
-| [📁 `frontend/`](./frontend) | **Web UI/UX & Design Systems**: Anti-slop typography, 79 visual styles, 192 product palettes, DTCG design tokens, and shadcn primitives. | `ui-ux-pro-max`, `distinctive-frontend`, `impeccable`, `shadcn-ui`, `design-tokens`, `brandkit`, `build-dashboard` |
-| [📁 `backend/`](./backend) | **Architecture & Data Engineering**: Formal ADRs, modular monoliths, contract-first OpenAPI schemas, and zero-downtime DB migrations. | `architecture-designer`, `microservices-architect`, `api-designer`, `postgres-pro`, `sql-pro`, `database-optimizer` |
-| [📁 `qa-security/`](./qa-security) | **Quality, TDD & Security**: Red-Green-Refactor test suites, OWASP Top 10 defense, zero-trust auth, and automated WCAG 2.2 AA gates. | `test-driven-development`, `test-master`, `secure-code-guardian`, `security-reviewer`, `code-reviewer`, `a11y-audit` |
-| [📁 `devops-cloud/`](./devops-cloud) | **Cloud & Production Reliability**: Prometheus/Grafana metrics, SLI/SLO budgets, structured JSON logging, and Vercel cloud scaling. | `sre-engineer`, `monitoring-expert`, `performance`, `deploy-to-vercel`, `vercel-optimize` |
-| [📁 `motion-video/`](./motion-video) | **Motion Graphics & Media**: Programmatic canvas video generation, continuous 3D camera paths, and procedural sound design. | `motion-design`, `motion-graphics`, `cinematic-camera`, `cinematic-film`, `sound-design`, `remotion-*` |
+| [📁 `orchestrators/`](./orchestrators) | **Master Orchestrators & Compilers**: Directs and executes full-stack pipelines, freezes intent contracts, and coordinates sub-skills. | `frontend-master`, `backend-master`, `fullstack-master`, `writing-plans`, `executing-plans` |
+| [📁 `mobile/`](./mobile) | **Mobile UI/UX & Native Platforms**: Apple HIG fidelity, Expo Router navigation, native bottom sheets, touch targets (>= 48dp), and Reanimated motion physics. | `mobile-app-ui-design`, `appllama-app-design-skill`, `appllama-usage`, `expo-ui`, `expo-native-ui`, `expo-router`, `expo-animation`, `expo-design-system`, `react-native-skills`, `eas-*` (27 skills) |
+| [📁 `frontend/`](./frontend) | **Web UI/UX & Design Systems**: Anti-slop typography, 79 visual styles, 192 product palettes, DTCG design tokens, and shadcn primitives. | `ui-ux-pro-max`, `distinctive-frontend`, `impeccable`, `shadcn-ui`, `design-tokens`, `brandkit`, `build-dashboard`, `react-best-practices` (26 skills) |
+| [📁 `backend/`](./backend) | **Architecture & Data Engineering**: Formal ADRs, modular monoliths, contract-first OpenAPI schemas, and zero-downtime DB migrations. | `architecture-designer`, `microservices-architect`, `api-designer`, `postgres-pro`, `sql-pro`, `database-optimizer` (6 skills) |
+| [📁 `qa-security/`](./qa-security) | **Quality, TDD & Security**: Red-Green-Refactor test suites, OWASP Top 10 defense, zero-trust auth, and automated WCAG 2.2 AA gates. | `test-driven-development`, `test-master`, `secure-code-guardian`, `security-reviewer`, `code-reviewer`, `a11y-audit`, `systematic-debugging` (11 skills) |
+| [📁 `devops-cloud/`](./devops-cloud) | **Cloud & Production Reliability**: Prometheus/Grafana metrics, SLI/SLO budgets, structured JSON logging, and Vercel cloud scaling. | `sre-engineer`, `monitoring-expert`, `performance`, `deploy-to-vercel`, `vercel-optimize`, `vercel-cli-with-tokens` (6 skills) |
+| [📁 `motion-video/`](./motion-video) | **Motion Graphics & Media**: Programmatic canvas video generation, continuous 3D camera paths, and procedural sound design. | `motion-design`, `motion-graphics`, `cinematic-camera`, `cinematic-film`, `sound-design`, `web-sims`, `remotion-*` (23 skills) |
 
 ---
 
-## 🏛️ System Architecture: The OmniCraft Pipeline
+## 🏛️ System Architecture: The Orchestration Flow
 
 ```mermaid
 graph TD
@@ -88,34 +106,25 @@ graph TD
 
 ---
 
-## 🎯 Flagship Master Orchestrators
+## 🚀 Quickstart: Setup for Any AI Assistant
 
-### 1. `frontend-master`
-*Lead UI/UX Architect, Mobile Experience Director & Design Systems Lead*
-* **Location**: [`orchestrators/frontend-master`](./orchestrators/frontend-master)
-* **Scope**: Responsive Web, Native Mobile Apps (Expo, React Native, iOS, Android).
-* **Core Philosophy**: Zero "AI Slop". Rejects generic purple gradients and unstyled system fonts in favor of benchmark-grade craft (Airbnb, Linear, Apple, Spotify).
+### 1. Claude Code (Anthropic CLI)
+Run inside any project or your global workspace:
+```bash
+git clone https://github.com/MykeShale/OmniCraft.git .omnicraft
+# Add reference to your CLAUDE.md:
+echo "@.omnicraft/CLAUDE.md" >> CLAUDE.md
+```
 
-### 2. `backend-master`
-*Principal Backend Architect, Lead Database Engineer & Security Specialist*
-* **Location**: [`orchestrators/backend-master`](./orchestrators/backend-master)
-* **Scope**: Distributed Services, Modular Monoliths, REST/GraphQL APIs, and Database Engines.
-* **Core Philosophy**: Contract-first, zero-trust, and evidence-driven engineering. Data outlives applications; APIs outlive implementations.
+### 2. Cursor IDE & Windsurf
+Clone into your project repository or home folder:
+```bash
+git clone https://github.com/MykeShale/OmniCraft.git .cursor/omnicraft
+```
+Cursor immediately ingests `.cursorrules` from the repository root.
 
-### 3. `fullstack-master`
-*Autonomous Full-Stack Application Compiler*
-* **Location**: [`orchestrators/fullstack-master`](./orchestrators/fullstack-master)
-* **Scope**: End-to-end full-stack platforms from scratch.
-* **Workflow**: Integrates `backend-master` and `frontend-master` into a 5-phase self-healing autonomous loop.
-
----
-
-## ⚙️ Installation & Setup
-
-### Global Antigravity Installation (Recommended)
-
-Clone into your global Antigravity config directory:
-
+### 3. Google Antigravity
+Clone globally or into your project:
 ```bash
 # Windows (PowerShell)
 git clone https://github.com/MykeShale/OmniCraft.git "$env:USERPROFILE\.gemini\config\skills"
@@ -124,7 +133,8 @@ git clone https://github.com/MykeShale/OmniCraft.git "$env:USERPROFILE\.gemini\c
 git clone https://github.com/MykeShale/OmniCraft.git ~/.gemini/config/skills
 ```
 
-Antigravity automatically discovers and indexes all categorized domains via [`skills.json`](./skills.json).
+### 4. OpenHands, Cline & Roo Code
+Place OmniCraft in your workspace root. Agents automatically ingest [`AGENTS.md`](./AGENTS.md).
 
 ---
 
@@ -144,5 +154,5 @@ Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.
 ---
 
 <div align="center">
-  <sub>Crafted for autonomous cross-platform engineering by <b>Myke Shale</b>.</sub>
+  <sub>Crafted for universal autonomous engineering across all AI runtimes by <b>Myke Shale</b>.</sub>
 </div>

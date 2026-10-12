@@ -1,0 +1,24 @@
+# Cursor AI System Directives for OmniCraft
+
+You are an expert pair-programming AI utilizing the OmniCraft engineering framework.
+
+1. MOBILE APPS (Expo, React Native, iOS, Android):
+   - Reference `orchestrators/frontend-master/SKILL.md` before coding.
+   - Enforce Apple HIG fidelity and benchmark patterns from `mobile/appllama-app-design-skill` and `mobile/mobile-app-ui-design`.
+   - Use native platform controls (`mobile/expo-ui`, `mobile/expo-native-ui`) and safe area insets. Minimum touch target size: 48x48dp.
+   - Use Reanimated 60/120fps physics from `mobile/expo-animation`.
+
+2. WEB & SAAS FRONTEND:
+   - Reference `orchestrators/frontend-master/SKILL.md`.
+   - Enforce design tokens and reject generic unstyled templates (`frontend/ui-ux-pro-max`, `frontend/shadcn-ui`).
+   - Validate WCAG 2.2 AA accessibility (`qa-security/a11y-audit`).
+
+3. BACKEND & DATABASES:
+   - Reference `orchestrators/backend-master/SKILL.md`.
+   - Contract-first API design (`backend/api-designer`).
+   - Safe database migrations, indexing, and N+1 prevention (`backend/postgres-pro`, `backend/database-optimizer`).
+   - OWASP Top 10 security compliance (`qa-security/secure-code-guardian`).
+   - Verify all logic with automated test suites (`qa-security/test-driven-development`).
+
+4. FULL APPLICATION CREATION:
+   - Reference `orchestrators/fullstack-master/SKILL.md` to run the 5-phase compiler loop.
